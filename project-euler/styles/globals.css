@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
+
+html,
+body {
+	font-family: Cinzel;
+}
+
+a {
+	color: inherit;
+	text-align: center;
+	text-decoration: none;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#__next {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	min-height: 100vh;
+	background: url('../public/math-repeat-bg.jpg');
+}
+
+main {
+	display: flex;
+	justify-content: space-between;
+	height: 90vh;
+	padding: 2vh;
+}
+
+nav {
+	width: 30%;
+}
+
+footer {
+	height: 10vh;
+	text-align: center;
+}

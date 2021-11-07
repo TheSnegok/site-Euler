@@ -1,0 +1,76 @@
+.project {
+    text-align: left;
+}
+
+.title {
+    font-size: 4vh;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.headerTask {
+    padding: 0 2vh;
+    font-size: 3vh;
+    font-weight: 500;
+    margin-bottom: 1vh;
+}
+
+.task {
+    text-align: center;
+    text-align: left;
+    font-size: 2.5vh;
+    font-family: monospace;
+    margin-bottom: 1vh;
+    white-space: pre-line;
+}
+
+.resolve {
+    font-size: 3vh;
+    font-weight: 500;
+    padding: 0 2vh;
+}
+
+.show {
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+.spoiler {
+    text-align: center;
+    margin-bottom: 1vh;
+    position: relative;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.spoiler::before {
+    content: 'spoiler';
+    font-size: 2vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blurAnswer {
+    text-align: center;
+    font-size: 2.5vh;
+    filter: blur(3px);
+}
+
+.answer {
+    text-align: center;
+    font-size: 2.5vh;
+    transition: 1s;
+}
+
+.code {
+    padding: 0 2vh;
+}
+
+.link {
+    text-align: center;
+    font-size: 2.5vh;
+    font-family: monospace;
+}
