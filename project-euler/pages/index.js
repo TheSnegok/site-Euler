@@ -10,7 +10,7 @@ const Home = () => (
 			<meta name="description" content="Eiler's Project Answers" />
 			<link rel="icon" href="/favicon.ico" />
 		</Head>
-		<h1>Project Euler</h1>
+		<h1 className={s.header}>Project Euler</h1>
 		<h3 className={s.headerSite}>
 			On this site you will find tasks and answers to Project Euler
 		</h3>
@@ -20,7 +20,9 @@ const Home = () => (
 				follows them is not dangerous to deceive the senses.” - Leonard
 				Euler
 			</p>
-			<Image src={Euler} alt="euler" className={s.imgEuler} />
+			<div className={s.imgEuler}>
+				<Image src={Euler} alt="euler" objectFit="fill" />
+			</div>
 		</div>
 		<p>
 			These tasks are of varying degrees of complexity, and most of them

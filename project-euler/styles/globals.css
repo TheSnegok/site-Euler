@@ -38,5 +38,20 @@ nav {
 
 footer {
 	height: 10vh;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 720px) {
+	main {
+        padding: 0;
+    }
+	nav {
+		width: 40%
+	}
+	footer {
+		height: 6vh;
+		font-size: 12px;
+	}
 }

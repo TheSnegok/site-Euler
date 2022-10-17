@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    border-radius: 25% 0 0 25%;
 }
 
 .menu {
@@ -11,4 +10,29 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.linkActive {
+    color: rgb(206, 206, 206);
+}
+
+@media (max-width: 720px) {
+    .menu {
+        height: 60%;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .menu {
+        height: 50%;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .menu {
+        height: 50%;
+        font-size: 8px;
+    }
 }
